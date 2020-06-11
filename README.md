@@ -2,7 +2,7 @@
 
 This is a simple exercise to get to know CDK better.
 
-![Architecture diagram](./Architecture diagram.png)
+![Architecture diagram](Architecture%20diagram.png)
 
 
 ## Getting Started
