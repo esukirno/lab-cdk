@@ -37,7 +37,7 @@ npm i -g typescript
 
 ## Lab Instructions
 
-### Exercise 1
+### Exercise 1 Setup CDK project
 
 1. From the root folder (where the README.md file is) creates `deploy` folder.
 2. Navigate to `deploy` folder.
@@ -45,7 +45,7 @@ npm i -g typescript
 4. Run `npm run build` to build the project.
 5. Run `cdk synth` to emit CloudFormation template.
 
-### Exercise 2
+### Exercise 2 Configure API gateway, Lambda, and DynamoDb
 
 1. Open `lab-cdk` folder on your favorite IDE.
 2. Open `lib/deploy-stack.cs` file.
@@ -57,7 +57,7 @@ npm i -g typescript
 6. Run `cdk synth` to emit CloudFormation template.
 
 
-### Exercise 3
+### Exercise 3 Configure DynamoDb stream and logger Lambda
 1. Open `lib/deploy-stack.cs` file.
 2. Using CDK construct, create `StreamLogger` lambda. The source code is available on `src/stream-logger-lambda/index.js`.
 3. Update DynamoDb table `table1` to stream record changes
@@ -65,8 +65,10 @@ npm i -g typescript
 5. Run `npm run build` to build the project.
 6. Run `cdk synth` to emit CloudFormation template.
 
-### Exercise 4
+### Exercise 4 Custom CDK construct
 1. Open `lib/deploy-stack.cs` file.
 2. Create custom CDK construct for resources created in Exercise 3
 3. Bonus exercise: Create another DynamoDb `table2`, and stream its record changes to the same `StreamLogger` lambda by using the same custom CDK construct.
 
+# Authors
+* Edwin Sukirno
