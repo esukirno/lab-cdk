@@ -49,10 +49,10 @@ npm i -g typescript
 
 1. Open `lab-cdk` folder on your favorite IDE.
 2. Open `lib/deploy-stack.cs` file.
-3. Using CDK construct, create `DynamoDbProxy` lambda. The source code is available on `src/dynamodb-proxy-lambda/index.js`.
-4. Using CDK construct, create `DynamoDbRestApi` Rest API Gateway for that Lambda.
+3. Using CDK construct, create `DynamoDbProxyLambda` lambda. The source code is available on `src/dynamodb-proxy-lambda/index.js`.
+4. Using CDK construct, create `DynamoDbApiGateway` Rest API Gateway for that Lambda.
 5. Using CDK construct, create DynamoDb table `table1`.
-6. Grant `DynamoDbProxy` lambda, read and write access to DynamoDb table `table1`.
+6. Grant `DynamoDbProxyLambda` lambda, read and write access to DynamoDb table `table1`.
 5. Run `npm run build` to build the project.
 6. Run `cdk synth` to emit CloudFormation template.
 
