@@ -70,5 +70,9 @@ npm i -g typescript
 2. Create custom CDK construct for resources created in Exercise 3
 3. Bonus exercise: Create another DynamoDb `table2`, and stream its record changes to the same `StreamLogger` lambda by using the same custom CDK construct.
 
+# References
+
+* [CDK Typescript api references](https://docs.aws.amazon.com/cdk/api/latest/typescript/api/index.html)
+
 # Authors
 * Edwin Sukirno
