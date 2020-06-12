@@ -20,6 +20,7 @@ https://github.com/coreybutler/nvm-windows
 * Install and configure AWS CLI
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html
+
 https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html
 
 * Install CDK
